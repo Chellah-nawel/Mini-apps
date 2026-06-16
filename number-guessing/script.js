@@ -4,6 +4,12 @@ let number= -1;
 
 while(number != rand_number){
     number= window.prompt("Enter a number between 0 and 100");
+    if(isNaN(number)){
+        window.alert("Please enter a valid number");
+    }
+    if(number>100 || number <0){
+        window.localStorage("Please enter a number between 0 and 100")
+    }
     attempts++;
     if (number > rand_number){
         window.alert("Too Big, try another one");
