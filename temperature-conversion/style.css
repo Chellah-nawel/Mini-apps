@@ -1,0 +1,12 @@
+#container{
+    background-color: rgba(236, 208, 171, 0.845);
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 3px 5px 12px rgb(103, 102, 102);
+    text-align: center;
+    justify-content: center;
+    margin-left: 450px;
+    margin-top: 90px;
+}
