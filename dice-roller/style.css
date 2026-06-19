@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(16, 88, 51);
+}
+
+#container{
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 3px 20px black;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+h1{
+    color: rgb(16, 88, 51) ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+#lab1{
+    font-size: 20px;
+}
+
+#input-field{
+    height: 20px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(16, 88, 51);
+    color: white;
+    border-radius: 12px;
+    border-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+button :hover{
+    background-color: rgb(20, 81, 83);
+}
