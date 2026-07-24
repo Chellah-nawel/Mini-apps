@@ -7,9 +7,12 @@ body{
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #time{
+    backdrop-filter: blur(14px);
     background-color: rgba(222, 184, 135, 0.753);
     height: 80px;
     color: rgb(77, 12, 109);
@@ -17,4 +20,5 @@ body{
     font-size: 70px;
     font-weight: bold;
     margin-top: 25%;
+    
 }
