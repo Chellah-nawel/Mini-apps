@@ -5,9 +5,9 @@ function updateClock(){
     hours= time.getHours();
     min= time.getMinutes();
     seconds= time.getSeconds();
-    hours= hours.toString();
-    min= min.toString();
-    seconds= seconds.toString();
+    hours= hours.toString().padStart(2,0);
+    min= min.toString().padStart(2,0);
+    seconds= seconds.toString().padStart(2,0);
     let dateString =`${hours}: ${min}: ${seconds}`;
     timeCounter.textContent = dateString;
 }
